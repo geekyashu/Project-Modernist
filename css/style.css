@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-3dlight-color: #000;
+}
+*::selection {
+    color: #fff;
+    background-color: #48b9b2d5;
+}
+
+.fontstyle-h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.fontstyle-p {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 18px;
+}
+
+.logo {
+    color: #000;
+    font-family: 'Merriweather', serif;
+}
+
+.logo:hover {
+    color: #000;
+    font-family: 'Merriweather', serif;
+}
+
+.ahover li a {
+    color: #000;
+}
+
+.ahover li a:hover {
+
+    color: #ffffff;
+    background-color: #48b9b2d5;
+}
+
+.main-img {
+    height: 90vh;
+
+}
+
+.topbtn {
+    cursor: pointer;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index: 3;
+    color: rgb(72, 185, 177);
+
+}
+.topbtn :hover {
+    color: rgb(58, 151, 145);
+    border-radius: 50%;
+    box-shadow: 5px 5px 25px rgb(72, 185, 177);
+}
+
+.anchr {
+    text-decoration: none;
+    list-style: none;
+    color: rgba(72, 185, 178, 0.835);
+}
+
+.anchr:hover {
+    text-decoration: none;
+    color: #3c9690;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    transition-property: all;
+}
+
+.btn-1 {
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.btn-1:hover {
+    transition-duration: 100ms;
+
+}
+
+.play-btn {
+    border: 1.5px solid rgba(194, 194, 194, 0.753);
+    border-radius: 100%;
+}
+
+.play-btn:hover {
+    border: 2px solid #000;
+    border-radius: 100%;
+
+
+}
+
+.icons img {
+    width: 100px;
+}
+
+.margin {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.main-img1 {
+    height: 80vh;
+    width: 80vh;
+}
+
+.bgsvg {
+    background: url(../img/SVG/wave.svg);
+    background-repeat: no-repeat;
+    background-position-y: 500px;
+
+}
+
+.bgsvg::after {
+    content: 'rgb(72, 185, 177)';
+    
+}
+
+.img1 {
+    height: 100px;
+    width: 100px;
+}
+
+.anchr1 {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+}
+
+.anchr1:hover {
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    transition-property: all;
+}
+
+.email {
+    border: none;
+    border-bottom: gray 1px solid;
+}
+
+.btn-2 {
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    color: #fff;
+    width: 70px;
+    font-size: 20px;
+
+}
+
+.btn-2:hover {
+    transition-duration: 100ms;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+
+.imgdiv, .textdiv{
+    opacity: 0;
+}
+
+.imgdiv.animate__animated, .textdiv.animate__animated {
+    opacity: 1;
+}
